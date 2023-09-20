@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'android';
+    src: url(fonts/idroid.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@200&display=swap');
+
+body {
+    background-color:#F2E3D5 ;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3{
+    font-family:'android', "Helvetica Neue", "Helvetica";
+}
+
+header {
+    background: linear-gradient(#024959 ,#012E40 70%);
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px;
+}
+
+header > p {
+    text-align: center;
+}
+
+.main-menu > ul > li > a {
+    font-size: 12px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 60px 10px 24px;
+    text-decoration: none;
+    float: left;
+    border-radius: 10px;
+
+}
+
+.main-menu > ul > li > a:hover{
+    background-color: #3ca6a617;
+
+}
+
+.main-menu > ul{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+main {
+    background-color: whitesmoke;
+    margin-left: 13%;
+    margin-right: 13%;
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+}
+
+p {
+    text-align: justify;
+    padding: 9px;
+}
+
+.android-video{
+    padding: 50px;
+    background-color:#026773 ;
+}
+
+footer {
+    background-color: whitesmoke;
+    margin-left: 13%;
+    margin-right: 13%;
+    position: relative;
+    text-align: center;
+    bottom: 30px;;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;;
+}
+
+.square-inside-footer{
+    background-color: #3ca6a662;
+    border-radius: 15px;
+}
+
+h2,h3{
+    text-align: justify;
+    background:linear-gradient(90deg,#3ca6a657 10%, whitesmoke 90%)
+}
+
+.square-inside-footer > h4{
+    background-color:#3CA6A6;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    text-align: justify;
+    margin: 0px;
+}
+
+.square-inside-footer > p {
+    margin: 0px;
+    padding: 10px;
+}
+
+.square-inside-footer > ul {
+    text-decoration: none;
+    list-style: none;
+    text-align: justify;
+    float: left;
+    padding: 10px 50px;
+    margin: 5px;
+}
+
+
+.criation{
+    background-color:#012E40;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
